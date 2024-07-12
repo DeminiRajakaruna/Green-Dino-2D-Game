@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-height: 100vh;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+#myImage {
+    width: 50%; 
+    height: 350px;
+    margin-top: -365px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.box {
+    width: 100px; 
+    height: 100px;
+    position: absolute;
+    margin-top: 440px;
+    background-image: url(D:\DESKTOP\DIno\fff.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.score {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.end {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-image: linear-gradient(90deg, red, transparent);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    font-weight: bold;
+    color: aliceblue;
+    font-family: "broadway";
+    visibility: hidden;
+}
+
+.btn {
+    height: 35px;
+    width: 300px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 1000;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    height: 37px;
+    width: 305px;
+    background-color: rgb(0, 233, 233);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
